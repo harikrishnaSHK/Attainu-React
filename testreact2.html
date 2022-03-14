@@ -1,0 +1,61 @@
+<html>
+
+<body>
+
+<div id = "app1">
+
+</div>
+
+<div id ="app2">
+
+
+</div>
+
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script
+    crossorigin
+    src="https://unpkg.com/react@17/umd/react.development.js"
+></script>
+<script
+    crossorigin
+    src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+></script>
+
+<script>
+
+function test(){
+
+const node  = `<div>
+<div>Hello world</div>
+<div>${new Date().toLocaleTimeString()}</div>
+</div>` 
+
+document.getElementById('app1').innerHTML =node
+
+
+const node2  = React.createElement('div',null,
+React.createElement('div',null,'Hello world from react'),
+React.createElement('div',null,new Date().toLocaleTimeString())
+)
+ 
+ReactDOM.render(node2,document.getElementById('app2'))
+
+}
+
+
+
+
+
+setInterval(test,2000)
+
+
+
+</script>
+
+
+
+
+</body>
+
+
+</html>
