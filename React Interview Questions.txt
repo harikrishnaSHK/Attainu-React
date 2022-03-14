@@ -1,0 +1,29 @@
+What is the difference between Library and  a Framework?
+What is the difference between React and Angular?
+What is React?
+what is virtual DOM in react and give one example ?
+What is diffing and reconcilation in React ?
+Explain React Folder Structure ?
+What is differnece between npm and npx
+What is declarative and imperative language ?
+How a react application starts in a browser ?
+what are componenst and explain ?
+explain the difference between functional and class based components ?
+What is JSX and what are its benifits ?
+What are advanatages and disadvatanges of React ?
+What is SPA and give an live example ?
+what is react fragments
+what is react.strictmode
+what is state in react in class based components
+what are props in class based components
+what are the differnces between props and states in class based components
+How can we implement state and props in functional based components
+what is lifting up of a state in react
+how to implement for loop if and if else in JSX
+how to implement conditional rendering in react.
+waht are various life cycle methods in react in class based components
+Explain about various stages in class based components
+where to call http calls in class based componenst
+what is axios and differences between axios and fetch api ?
+
+ 
