@@ -20,7 +20,7 @@ function App() {
 
 const result  = useMemo(()=>{return add(num1,num2)},[num1,num2])
 
-
+//const result = add(num1,num2)
   return (
     <div className="App">
 
